@@ -30,16 +30,23 @@ class Vingador extends Pessoa {
   }
 }
 
-const thor = new Vingador(
-  "Thor",
-  "1.85",
-  "100kg",
-  ["Deus do Trovão", "Super força", "Vôo", "Longevidade"],
+const strange = new Vingador(
+  "Doutor Estranho",
+  "1.80",
+  "85kg",
+  [
+    "Mago Supremo",
+    "Teletransporte",
+    "Vôo",
+    "Longevidade",
+    "Escudos de proteção",
+  ],
   true,
-  true,
-  false
+  false,
+  false,
+  true
 );
 
 document.getElementById("lutar").onclick = function () {
-  thor.lutar();
+  strange.lutar();
 };
