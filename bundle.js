@@ -59,8 +59,8 @@ var Vingador = /*#__PURE__*/function (_Pessoa) {
   return Vingador;
 }(Pessoa);
 
-var thor = new Vingador("Thor", "1.85", "100kg", ["Deus do Trovão", "Super força", "Vôo", "Longevidade"], true, true, false);
+var strange = new Vingador("Doutor Estranho", "1.80", "85kg", ["Mago Supremo", "Teletransporte", "Vôo", "Longevidade", "Escudos de proteção"], true, false, false, true);
 
 document.getElementById("lutar").onclick = function () {
-  thor.lutar();
+  strange.lutar();
 };
